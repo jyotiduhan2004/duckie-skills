@@ -1,6 +1,6 @@
 ---
 name: contact-finder
-description: "Resolves ownership and contact information for IndiaMART projects, systems, and teams. Use when the user asks 'who should I reach out to', 'who owns X', 'who developed Y', 'who is responsible for Z', or needs to find a specific person's email."
+description: "Resolves ownership and contact information for IndiaMART projects, systems, and teams. Load when the user asks 'who should I reach out to', 'who owns X', 'who developed Y', 'who is responsible for Z', or needs to find a specific person's email."
 metadata:
   type: query
   version: 1.0

@@ -1,6 +1,6 @@
 ---
 name: article-structure
-description: "Enforces Wikipedia-inspired page structure for IndiaMART wiki pages. Use when creating a new wiki page, updating an existing page, or validating page format. Covers flexible templates, YAML frontmatter, tags, aliases, glossary auto-linking, and inline link context."
+description: "Enforces Wikipedia-inspired page structure for IndiaMART wiki pages. Load when creating a new wiki page, updating an existing page, or validating page format. Covers flexible templates, YAML frontmatter, tags, aliases, glossary auto-linking, and inline link context."
 metadata:
   type: compile
   version: 1.0

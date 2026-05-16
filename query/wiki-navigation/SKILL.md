@@ -1,6 +1,6 @@
 ---
 name: wiki-navigation
-description: "Explains IndiaMART wiki structure, categories, domains, page formats, and wikilink conventions. Use when exploring the wiki structure, browsing domains, understanding page organization, or following wikilinks between pages."
+description: "Explains IndiaMART wiki structure, categories, domains, page formats, and wikilink conventions. Load when exploring the wiki structure, browsing domains, understanding page organization, or following wikilinks between pages."
 metadata:
   type: query
   version: 1.0

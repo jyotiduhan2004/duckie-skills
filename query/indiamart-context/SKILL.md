@@ -1,6 +1,6 @@
 ---
 name: indiamart-context
-description: "Provides IndiaMART organizational context including products, teams, mailing lists, and internal tools. Use when the user asks about IndiaMART structure, needs organizational context, mentions IndiaMART-specific products (BuyLead, MCAT, AuditMate, VANI, GLADMIN), or asks about internal tooling."
+description: "Provides IndiaMART organizational context including products, teams, mailing lists, and internal tools. Load when the user asks about IndiaMART structure, needs organizational context, mentions IndiaMART-specific products (BuyLead, MCAT, AuditMate, VANI, GLADMIN), or asks about internal tooling."
 metadata:
   type: query
   version: 1.0

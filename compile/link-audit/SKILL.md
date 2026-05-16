@@ -1,6 +1,6 @@
 ---
 name: link-audit
-description: "Audits the wikilink graph for structural issues after compilation. Use when a compilation batch completes, when checking wiki health, or when investigating broken links. Runs scripts/audit_graph.py to find orphan pages, dead-end pages, and broken wikilinks."
+description: "Audits the wikilink graph for structural issues after compilation. Load when a compilation batch completes, when checking wiki health, or when investigating broken links. Runs scripts/audit_graph.py to find orphan pages, dead-end pages, and broken wikilinks."
 metadata:
   type: compile
   version: 1.0

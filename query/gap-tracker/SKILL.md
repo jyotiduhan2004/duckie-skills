@@ -1,6 +1,6 @@
 ---
 name: gap-tracker
-description: "Handles missing information scenarios gracefully. Use when a search returns no results, the wiki doesn't cover the user's topic, or the answer is incomplete. Guides the agent on what to tell the user and how to log gaps."
+description: "Handles missing information scenarios gracefully. Load when a search returns no results, the wiki doesn't cover the user's topic, or the answer is incomplete. Guides the agent on what to tell the user and how to log gaps."
 metadata:
   type: query
   version: 1.0

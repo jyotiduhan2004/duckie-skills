@@ -1,6 +1,6 @@
 ---
 name: merge-detection
-description: "Decides whether a new email should create a new wiki page or merge into an existing one. Use when the compiler encounters a new email topic and needs to resolve page placement. Applies Wikipedia's primary topic rule, >50% overlap merge threshold, and parent hub rules for page families."
+description: "Decides whether a new email should create a new wiki page or merge into an existing one. Load when the compiler encounters a new email topic and needs to resolve page placement. Applies Wikipedia's primary topic rule, >50% overlap merge threshold, and parent hub rules for page families."
 metadata:
   type: compile
   version: 1.0

@@ -1,6 +1,6 @@
 ---
 name: content-filter
-description: "Filters irrelevant content from raw IndiaMART emails during compilation. Use when processing raw email content before wiki page creation. Handles two-stage filtering: regex pre-processing (scripts/regex_prefilter.py) for signatures, greetings, forwarded chains, and LLM-judgment filtering for test results, scheduling, deployment logs."
+description: "Filters irrelevant content from raw IndiaMART emails during compilation. Load when processing raw email content before wiki page creation. Handles two-stage filtering: regex pre-processing (scripts/regex_prefilter.py) for signatures, greetings, forwarded chains, and LLM-judgment filtering for test results, scheduling, deployment logs."
 metadata:
   type: compile
   version: 1.0

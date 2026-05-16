@@ -1,6 +1,6 @@
 ---
 name: search-strategy
-description: "Provides search strategies and acronym resolution for IndiaMART's internal wiki. Use when searching for information, encountering unknown IndiaMART terms (MCAT, BL, ISQ, GLID, TOV, PNS, NI), or choosing between qmd_search, grep, and keyword_search tools."
+description: "Provides search strategies and acronym resolution for IndiaMART's internal wiki. Load when searching for information, encountering unknown IndiaMART terms (MCAT, BL, ISQ, GLID, TOV, PNS, NI), or choosing between qmd_search, grep, and keyword_search tools."
 metadata:
   type: query
   version: 1.0

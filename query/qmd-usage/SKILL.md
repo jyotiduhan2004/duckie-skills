@@ -1,6 +1,6 @@
 ---
 name: qmd-usage
-description: "Explains QMD hybrid search engine capabilities and best practices. Use when calling qmd_search, troubleshooting search results, or needing to understand BM25+vector+RRF fusion search."
+description: "Explains QMD hybrid search engine capabilities and best practices. Load when calling qmd_search, troubleshooting search results, or needing to understand BM25+vector+RRF fusion search."
 metadata:
   type: query
   version: 1.0

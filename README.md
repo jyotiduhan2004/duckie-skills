@@ -1,6 +1,6 @@
 # Duckie Skills — IndiaMART Knowledge Agent
 
-10 G-Brain-inspired skills for Duckie, IndiaMART's email-to-wiki knowledge agent. Skills inject domain-specific knowledge that LLMs don't have — IndiaMART acronyms, wiki structure, search strategies, compilation rules.
+8 G-Brain-inspired skills for Duckie, IndiaMART's email-to-wiki knowledge agent. Every skill passes Perplexity's test: "Would the agent get this wrong without this instruction?" — yes for all 8. Skills inject domain-specific knowledge that LLMs genuinely don't have — IndiaMART acronyms, wiki structure, search strategies, compilation rules.
 
 ## Architecture
 
@@ -10,16 +10,14 @@ Skills are loaded on-demand via `load_skill(name)` — injecting context into th
 - **Tier 2:** Full SKILL.md loaded on demand when triggered (~200-500 lines)
 - **Tier 3:** References and scripts loaded when needed (unlimited)
 
-## Query Skills (6) — Runtime knowledge for the query agent
+## Query Skills (4) — Runtime knowledge for the query agent
 
 | Skill | Trigger | Purpose |
 |-------|---------|---------|
 | `search-strategy` | Searching, unknown terms | Search tool selection, IndiaMART acronyms |
-| `contact-finder` | "Who owns X?", "Who to contact?" | Ownership and contact resolution |
-| `wiki-navigation` | Exploring wiki, browsing domains | Wiki structure, categories, page format |
+| `wiki-navigation` | Exploring wiki, browsing domains | Wiki structure, categories, page format, person slugs |
 | `qmd-usage` | Using qmd_search tool | QMD hybrid search best practices |
-| `indiamart-context` | Organizational questions | Products, teams, internal tools |
-| `gap-tracker` | No results found | Graceful missing-info handling |
+| `indiamart-context` | Organizational questions | Products, teams, internal tools, known gaps |
 
 ## Compile Skills (4) — Compilation pipeline rules
 
@@ -37,13 +35,11 @@ duckie-skills/
 ├── README.md
 ├── RESOLVER.md          (intent → skill routing)
 ├── SKILL_INDEX.json     (machine-readable registry)
-├── query/               (6 query-time skills)
+├── query/               (4 query-time skills)
 │   ├── search-strategy/ (SKILL.md + references/ACRONYMS.md)
-│   ├── contact-finder/
 │   ├── wiki-navigation/
 │   ├── qmd-usage/
-│   ├── indiamart-context/
-│   └── gap-tracker/
+│   └── indiamart-context/
 └── compile/             (4 compile-time skills)
     ├── article-structure/ (SKILL.md + references/TEMPLATE.md)
     ├── content-filter/    (SKILL.md + references/ + scripts/)

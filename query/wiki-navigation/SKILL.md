@@ -62,5 +62,8 @@ Body structure: lead paragraph → ## sections (Current State, Key Details, Open
 - Do NOT assume `policies/` or `decisions/` have content — they are mostly empty.
 - Do NOT confuse person page slugs with display names — slugs are email-based (`amit-agarwal-indiamart-com`).
 
+## Person Page Slugs
+Person slugs are email-based, not display names: `amit-agarwal-indiamart-com` (not "Amit Agarwal"). Use `keyword_search(name)` to find the slug. Person pages have an `email:` field and an `## Appears in` section listing their projects.
+
 ## Coverage Limitation
 This wiki covers **January to mid-February 2026** IndiaMART launch emails only. Topics outside this window may not exist.

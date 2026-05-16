@@ -43,10 +43,12 @@ IndiaMART is India's largest online B2B marketplace connecting buyers with selle
 - **Source:** Launch emails from marketplacelaunch@indiamart.com
 - **Page count:** ~2,379 (434 topics, 110 systems, 628 people, 8 domains)
 
-## Limitations
-- NOT included: IM Reports, Slack messages, Jira tickets, emails before January 2026.
+## Limitations & Known Gaps
+- NOT included: IM Reports (separate mailing list `imreports@indiamart.com`, not ingested), Slack messages, Jira tickets, emails before January 2026.
+- **March 2026 onwards** — not yet compiled. If a topic seems missing, it may have launched after the coverage window.
 - Team org charts are not available — person pages show contributions, not reporting structure.
 - Some pages have launch descriptions but lack performance metrics.
+- Detailed Jira/ticket content is mentioned in emails but not separately tracked.
 
 ## What NOT to Do
 - Do NOT state facts about IndiaMART products that aren't in the wiki — the wiki is the only trusted source.
